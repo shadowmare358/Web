@@ -1,117 +1,49 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Roboto, arial;
-	box-sizing: border-box;
-}
+	font-family: tahoma, arial;
 
-body {
-	background-color: skyblue;
-}
-
-#wrapper {
-	max-width: 1000px;
-	margin: 0 auto 0 auto;
-	background-color: lightgray;
-}
-
-header img {
-	width: 100%;
-	height: 450px;
-	border-radius: 5%;
-	display: block;
-}
-
-nav {
-	overflow: hidden;
 
 }
 
-nav a {
-	display: block;
-	width: 25%;
-	float: left;
-	color: white;
+header {
+	background: url('tło.jpg') center;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1,
+h2 {
 	text-align: center;
-	text-decoration: none;
-	background-color: darkslategray;
-	padding: 15px 30px;
-	font-size: 20px;
-	transition: all 1s ease;
+	color: white;
 }
 
-a.menu:hover {
-	background-color: crimson;
-	cursor: pointer;
-}
-
-
-
-.active {
-	background-color: crimson;
-}
-
-section {
-	padding: 5px;
-}
-
-article {
-	margin-top: 30px;
+h1 {
+	font-size: 40px;
 	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 26px;
+	color: floralwhite;
+}
+
+button {
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	width: 260px;
+	height: 70px;
 	padding: 20px;
-}
-
-article h1 {
-	font-size: 30px;
-	text-align: center;
-	margin: 0 10% 20px;
-	padding-bottom: 15px;
-	border-bottom: 2px solid crimson;
-}
-
-img.left {
-	float: left;
-	margin: 0px 10px;
-	width: 25%;
-	border-radius: 10% 30%;
-	border: 10px solid gray;
-}
-
-article p {
-	text-align: justify;
-	line-height: 25px;
-	font-size: 18px;
-	padding: 15px 0;
-}
-
-iframe {
-	padding: 0 5% 0 5%;
-	width: 100%;
-	border-radius: 10%;
-}
-
-footer {
-	height: 40px;
-	padding: 0 20px 0 20px;
-	background-color: darkslategray;
+	background-color: brown;
+	border: 3px solid darkred;
 	color: white;
-	line-height: 40px;
-	text-align: center;
-	margin-top: 5px;
-}
-
-@media (max-width: 800px) {
-	nav a {
-		width: 50%;
-		font-size: 22px;
-	}
-	h1 {
-		font-size: 40px;
-	}
-}
-
-@media (max-width: 500px) {
-	nav a {
-		width: 100%;
-	}
+	font-size: 20px;
+	margin-left: -130px;
+	border-radius: 50% 50%;
 }
